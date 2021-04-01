@@ -1,0 +1,19 @@
+package squareofthefirstonehundrednaturalnumbers;
+
+public class squareofnaturalnumbers {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int high =100;
+	     
+	        int res = high * ( + 1) / 2;
+	        res = res*res;
+	        for(int i = 1; i <= high; i++) {
+	            res -= i * i;
+	        }
+	     
+	        System.out.println("Result: " + res);
+
+	}
+
+}
